@@ -11,7 +11,7 @@ export default function About() {
   const [equipRef, equipVisible] = useReveal();
 
   return (
-    <section id="about" className="relative overflow-hidden" style={{ padding: "120px 0 140px", background: "var(--bg)" }}>
+    <section id="about" className="relative overflow-hidden" style={{ padding: "60px 0 140px", background: "var(--bg)" }}>
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 40px" }}>
         <div ref={ref} className={`reveal ${visible ? "visible" : ""}`}>
           <div className="section-label">
@@ -96,7 +96,7 @@ export default function About() {
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-[rgba(184,134,11,0.2)] bg-black flex flex-col justify-between min-h-[460px]">
               {/* Looping background video running crystal clear across the entire card */}
               <video
-                src="/Royal_Engg_Contractors/videos/about-bg.mp4"
+                src="/videos/about-bg.mp4"
                 autoPlay
                 loop
                 muted

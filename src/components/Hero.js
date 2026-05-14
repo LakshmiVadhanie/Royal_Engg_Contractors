@@ -120,7 +120,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 opacity-85"
           style={{
-            backgroundImage: "url('/Royal_Engg_Contractors/images/hero-split.png')",
+            backgroundImage: "url('/images/hero-split.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

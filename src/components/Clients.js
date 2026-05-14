@@ -21,7 +21,7 @@ export default function Clients() {
   const [ref, visible] = useReveal();
 
   return (
-    <section className="relative overflow-hidden" style={{ padding: "100px 0", background: "var(--bg)" }}>
+    <section className="relative overflow-hidden" style={{ padding: "60px 0 40px", background: "var(--bg)" }}>
       <div className="divider" style={{ position: "absolute", top: 0, left: 0, right: 0 }} />
 
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 40px 52px" }}>
