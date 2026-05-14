@@ -327,9 +327,9 @@ function SafetySection() {
                 gap: "24px",
                 marginBottom: "24px"
               }}>
-                <img src="/images/safety-2.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
-                <img src="/images/safety-3.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
-                <img src="/images/safety-4.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
+                <img src="/Royal_Engg_Contractors/images/safety-2.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
+                <img src="/Royal_Engg_Contractors/images/safety-3.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
+                <img src="/Royal_Engg_Contractors/images/safety-4.jpg" alt="Safety Appreciation" style={{ width: "100%", height: "260px", objectFit: "cover", borderRadius: "4px" }} />
               </div>
               <p style={{
                 fontFamily: "var(--font-sans)",
@@ -346,7 +346,7 @@ function SafetySection() {
 
               {/* Bottom Row - 1 Image */}
               <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "24px" }}>
-                <img src="/images/safety-5.jpg" alt="Safety Quiz Winner" style={{ width: "100%", maxWidth: "400px", height: "auto", borderRadius: "4px" }} />
+                <img src="/Royal_Engg_Contractors/images/safety-5.jpg" alt="Safety Quiz Winner" style={{ width: "100%", maxWidth: "400px", height: "auto", borderRadius: "4px" }} />
                 <p style={{
                   fontFamily: "var(--font-sans)",
                   fontSize: "0.85rem",

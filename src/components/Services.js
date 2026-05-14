@@ -44,10 +44,10 @@ const icons = {
 };
 
 const serviceImages = [
-  "/images/gallery-blaster-ppe.jpg",
-  "/images/gallery-dgen-painting.jpg",
-  "/images/gallery-hrsg-1.jpg",
-  "/images/real-steel-piles-dahej.jpg",
+  "/Royal_Engg_Contractors/images/gallery-blaster-ppe.jpg",
+  "/Royal_Engg_Contractors/images/gallery-dgen-painting.jpg",
+  "/Royal_Engg_Contractors/images/gallery-hrsg-1.jpg",
+  "/Royal_Engg_Contractors/images/real-steel-piles-dahej.jpg",
 ];
 
 export default function Services() {

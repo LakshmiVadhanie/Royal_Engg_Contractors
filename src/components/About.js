@@ -96,7 +96,7 @@ export default function About() {
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-[rgba(184,134,11,0.2)] bg-black flex flex-col justify-between min-h-[460px]">
               {/* Looping background video running crystal clear across the entire card */}
               <video
-                src="/videos/about-bg.mp4"
+                src="/Royal_Engg_Contractors/videos/about-bg.mp4"
                 autoPlay
                 loop
                 muted
