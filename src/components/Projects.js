@@ -49,16 +49,16 @@ export default function Projects() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "2px", background: "var(--border)" }}>
             {filtered.map((project, i) => (
               <div key={project.id} className="project-card" style={{ cursor: "pointer" }} onClick={() => setSelectedProject(project)}>
-                <div style={{ position: "relative", height: "260px", overflow: "hidden" }}>
-                  <Image src={project.image} alt={project.title} fill className="object-cover" style={{ transition: "transform 0.7s ease" }}
-                    onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.06)"}
+                <div style={{ position: "relative", background: "#111", overflow: "hidden", height: "280px" }}>
+                  <Image src={project.image} alt={project.title} fill style={{ objectFit: "cover", transition: "transform 0.7s ease" }}
+                    onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.05)"}
                     onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
                   />
-                  <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(26,23,20,0.05) 0%, rgba(26,23,20,0.7) 100%)" }} />
+                  <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(26,23,20,0) 50%, rgba(26,23,20,0.65) 100%)", pointerEvents: "none" }} />
                   <div style={{ position: "absolute", top: "14px", left: "14px", background: "var(--gold)", color: "#fff", fontFamily: "var(--font-sans)", fontSize: "0.62rem", fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", padding: "6px 14px", borderRadius: "2px" }}>
                     {project.category}
                   </div>
-                  <div style={{ position: "absolute", top: "14px", right: "14px", fontFamily: "var(--font-mono)", fontSize: "0.72rem", color: "rgba(255,255,255,0.4)" }}>
+                  <div style={{ position: "absolute", top: "14px", right: "14px", fontFamily: "var(--font-mono)", fontSize: "0.72rem", color: "rgba(255,255,255,0.6)" }}>
                     {String(i + 1).padStart(2, "0")}
                   </div>
                 </div>
@@ -84,8 +84,8 @@ export default function Projects() {
       {selectedProject && (
         <div onClick={() => setSelectedProject(null)} style={{ position: "fixed", inset: 0, zIndex: 100, background: "rgba(26,23,20,0.85)", backdropFilter: "blur(20px)", display: "flex", alignItems: "center", justifyContent: "center", padding: "24px" }}>
           <div onClick={(e) => e.stopPropagation()} style={{ background: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: "6px", maxWidth: "680px", width: "100%", maxHeight: "90vh", overflow: "auto" }}>
-            <div style={{ position: "relative", height: "280px" }}>
-              <Image src={selectedProject.image} alt={selectedProject.title} fill className="object-cover" />
+            <div style={{ position: "relative", background: "#111", overflow: "hidden", height: "420px" }}>
+              <Image src={selectedProject.image} alt={selectedProject.title} fill style={{ objectFit: "cover" }} />
               <button onClick={() => setSelectedProject(null)} style={{ position: "absolute", top: "14px", right: "14px", width: "36px", height: "36px", background: "rgba(26,23,20,0.6)", border: "none", borderRadius: "50%", color: "#fff", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.9rem" }}>✕</button>
             </div>
             <div style={{ padding: "36px 40px" }}>

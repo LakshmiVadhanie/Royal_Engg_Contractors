@@ -87,7 +87,7 @@ export default function About() {
                 ))}
               </div>
 
-              <div style={{ marginTop: "40px" }}>
+              <div style={{ marginTop: "40px", display: "flex", flexWrap: "wrap", gap: "16px", alignItems: "center" }}>
                 <a href="#contact" className="btn-primary">Work With Us</a>
               </div>
             </div>
@@ -108,9 +108,6 @@ export default function About() {
 
               {/* Unobstructed top spacer area allowing the live video animation to shine prominently */}
               <div className="relative z-10 p-5 md:p-6 flex justify-end">
-                <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur-md text-[0.65rem] font-bold tracking-widest text-[#D4A853] uppercase border border-[#D4A853]/30">
-                  Live Action
-                </span>
               </div>
 
               {/* Stats Grid layered completely transparently over the video */}
@@ -163,14 +160,14 @@ export default function About() {
                   <span className="eyebrow" style={{ color: "#d4a853", fontSize: "0.68rem" }}>ISO Quality Standards</span>
                 </div>
                 <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "0.9rem", lineHeight: 1.5 }}>
-                  Committed to excellence in every project — on time, on budget, every time.
+                  Committed to excellence in every project - on time, on budget, every time.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* ——— TEAM & EQUIPMENT ——— */}
+        {/* TEAM & EQUIPMENT */}
         <div style={{ marginTop: "120px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "48px" }}>
           {/* Team */}
           <div ref={teamRef} className={`reveal ${teamVisible ? "visible" : ""}`}>

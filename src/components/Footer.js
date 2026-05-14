@@ -10,7 +10,7 @@ export default function Footer() {
       <div style={{ height: "2px", background: "linear-gradient(90deg, transparent, var(--gold-light), transparent)" }} />
 
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "72px 40px 48px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr 1fr 1.2fr", gap: "60px", marginBottom: "64px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "48px", marginBottom: "64px" }}>
 
           {/* Brand */}
           <div>

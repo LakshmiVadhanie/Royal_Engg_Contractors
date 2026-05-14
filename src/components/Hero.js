@@ -199,8 +199,8 @@ export default function Hero() {
           protection in the toughest environments.
         </motion.p>
 
-        {/* CTA Button */}
-        <motion.div className="mb-12" variants={slideInUp}>
+        {/* CTA Buttons */}
+        <motion.div className="mb-12 flex flex-wrap items-center gap-4" variants={slideInUp}>
           <a
             href="#services"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-md transition-all duration-300 hover:bg-[#D4A853] hover:text-black group backdrop-blur-sm"
@@ -224,7 +224,7 @@ export default function Hero() {
               className="text-xs font-bold tracking-[0.18em] uppercase"
               style={{ color: "#D4A853" }}
             >
-              — INDUSTRY FOCUS •
+              - INDUSTRY FOCUS •
             </span>
           </div>
           <motion.div

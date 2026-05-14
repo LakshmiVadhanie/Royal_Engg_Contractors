@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: "8px" }}>Project Details *</label>
-                  <textarea name="message" rows={5} required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="form-input" style={{ resize: "none" }} placeholder="Tell us about your project — scope, location, timeline..." />
+                  <textarea name="message" rows={5} required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="form-input" style={{ resize: "none" }} placeholder="Tell us about your project - scope, location, timeline..." />
                 </div>
                 <button type="submit" className="btn-primary" style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", textAlign: "center" }}>
                   <span>Send Message</span>

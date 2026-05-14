@@ -44,10 +44,10 @@ const icons = {
 };
 
 const serviceImages = [
-  "/images/service-grit-blasting.png",
-  "/images/service-industrial-painting.png",
-  "/images/service-surface-prep.png",
-  "/images/service-marine-offshore.png",
+  "/images/gallery-blaster-ppe.jpg",
+  "/images/gallery-dgen-painting.jpg",
+  "/images/gallery-hrsg-1.jpg",
+  "/images/real-steel-piles-dahej.jpg",
 ];
 
 export default function Services() {
